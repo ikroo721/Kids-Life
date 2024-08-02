@@ -80,10 +80,10 @@ ProductArr.map((e,i)=>(
 ))
         } 
       </div>
-      <div className='flex items-start gap-2 mb-10' >
-        <Link to={"../"}  className='px-3  py-1 border-[1px] border-[#5c5c5c] rounded-md text-[#5c5c5c] text-sm' >1</Link>
-        <Link to={"/shop/1"} className='px-3  py-1 border-[1px] border-[#008C99] text-[#008C99] rounded-md text-sm'  >2</Link>
-        <Link to={"/shop/1"}  className='px-3  py-1 border-[1px] border-[#008C99] text-[#008C99] rounded-md text-sm' >Next</Link>
+      <div className='flex items-start gap-2 mb-10 ' >
+        <Link to={"../"}  className='z-[99] px-3  py-1 border-[1px] border-[#5c5c5c] rounded-md text-[#5c5c5c] text-sm' >1</Link>
+        <Link to={"/shop/1"} className='z-[99] px-3  py-1 border-[1px] border-[#008C99] text-[#008C99] rounded-md text-sm'  >2</Link>
+        <Link to={"/shop/1"}  className='z-[99] px-3  py-1 border-[1px] border-[#008C99] text-[#008C99] rounded-md text-sm' >Next</Link>
       </div>
     </div>
   )

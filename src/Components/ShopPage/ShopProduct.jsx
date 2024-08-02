@@ -20,7 +20,7 @@ const ShopProduct = () => {
     ]
   return (
     <div className='min-h-80 w-full  '>
-    <div className="w-full  md:w-full lg:w-[100%]  lg:min-h-10 flex flex-wrap gap-5">
+    <div className="w-full  md:w-full lg:w-[100%]  lg:min-h-10 flex flex-wrap gap-5 px-4">
     {
 ProductArr.map((e,i)=>(
 <SingleProduct key={i} item={e}/>
@@ -29,7 +29,7 @@ ProductArr.map((e,i)=>(
   
      
   </div>
-  <div className='flex items-start gap-2 mb-10' >
+  <div className='flex items-start gap-2 mb-10 px-4 py-3' >
     <Link to={"../"}  className='px-3  py-1 border-[1px] border-[#008C99] text-[#008C99] rounded-md text-sm' >Prev</Link>
     <Link to={"../"} className='px-3  py-1 border-[1px] border-[#008C99] text-[#008C99] rounded-md text-sm'  >1</Link>
     <Link to={"/shop/1"}  className='px-3  py-1 border-[1px] border-[#5c5c5c] rounded-md text-[#5c5c5c] text-sm' >2</Link>
