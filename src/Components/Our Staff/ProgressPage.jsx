@@ -38,7 +38,7 @@ const ProgressPage = () => {
     
    <h1 className='font-bubblegum text-3xl text-white '>Our Statistics</h1>
    <div style={{backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:'no-repeat'}} className='h-[15px] 
-   w-36 bg-[url("https://kidslifedev.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/images/title_bg.png")]' ></div>
+   w-36 bg-[url("https://kidslifedev.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/images/title_bg_white.png")]' ></div>
     {/* <HeadingWithStar bg={Arr} >Our Statisitcs</HeadingWithStar> */}
   </div>
   <div className='flex justify-evenly w-full lg:flex-nowrap md:flex-nowrap flex-wrap  font-lato md:gap-4' >
