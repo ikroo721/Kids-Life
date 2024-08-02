@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utility {
+    .clip-your-needful-style {
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 92% 100%, 0 100%, 18% 50%);
+
+     }
+     .clip-md-polygon{
+      clip-path: polygon(100% 0, 95% 48%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     }
+     .clip-your-arr {
+      clip-path: polygon(55% 0, 100% 0, 100% 100%, 52% 100%, 100% 49%);
+     }
+     .clip-your-hexagon {
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+     }
+     .tri{
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+     }
+}
