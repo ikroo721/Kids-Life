@@ -91,7 +91,7 @@ const RightAccordion = () => {
                 aria-expanded={activeIndex === id}
                 aria-controls={`accordion-collapse-body-${id}`}
               >
-                <span className={`flex  lg:items-center lg:justify-center md:gap-2 lg:gap-3 font-semibold ${activeIndex === id ? 'text-[#008C99] dark:bg-gray-700' : 'text-[#333334]'}`} ><div className={`h-7 w-7 md:h-7 md:w-7 lg:h-6 lg:w-6 rounded-full  flex items-center justify-center ${activeIndex === id ? 'bg-[#008C99] dark:bg-gray-700' : 'bg-[#333334]'}`}><FaQuestion className='text-[12px] text-white'/></div>{heading}</span>
+                <span className={`flex  lg:items-center lg:justify-center md:gap-2 lg:gap-3 font-semibold ${activeIndex === id ? 'text-[#008C99] ' : 'text-[#333334]'}`} ><div className={`h-7 w-7 md:h-7 md:w-7 lg:h-6 lg:w-6 rounded-full  flex items-center justify-center ${activeIndex === id ? 'bg-[#008C99] ' : 'bg-[#333334]'}`}><FaQuestion className='text-[12px] text-white'/></div>{heading}</span>
               </button>
             </h2>
             <div id={`accordion-collapse-body-${id}`} className={`transition-max-height  ${activeIndex === id ? 'max-h-screen' : 'max-h-0 overflow-hidden'}`} aria-labelledby={`accordion-collapse-heading-${id}`}>
