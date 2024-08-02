@@ -79,7 +79,7 @@ const RightAccordion = () => {
 
   return (
   <div className='w-[90%]  md:w-1/2 lg:h-[45vh]  lg:w-1/2 relative' >
-      <div className="max-w-screen-md mx-auto px-4 pt-5 dark:bg-gray-800">
+      <div className="max-w-screen-md mx-auto px-4 pt-5 ">
       <div id="accordion-collapse" className='flex flex-col  lg:h-[40vh] justify-evenly w-full'>
         {accordionItems.map(({ id, heading, content }) => (
           <div key={id}>
