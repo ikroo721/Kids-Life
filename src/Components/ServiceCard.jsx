@@ -27,7 +27,7 @@ const ServiceCard = ({item}) => {
         <img src={`${item.s}`} className='h-full w-full object-cover' alt="" />
       </div>
       </div>
-      <h1 className='md:text-lg lg:text-2xl font-bubblegum text-[#2f2f2f] hover:text-[#008C99]' >{item.class}</h1>
+      <h1 className='md:text-lg lg:text-2xl font-bubblegum lg:mt-2 text-nowrap text-[#2f2f2f] hover:text-[#008C99]' >{item.class}</h1>
       <p className='  text-[#5C5C5C] text-center w-[70%] md:text-[11px] lg:text-sm lg:w-64  ' >{item.p}</p>
     </div>
   )
