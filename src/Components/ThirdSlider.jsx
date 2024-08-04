@@ -12,7 +12,7 @@ const ThirdSlider = () => {
                  </div>
                  
             </div>
-            <div className='bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/b-comment.png")] h-[83%] sm:w-full sm:!bg-cover md:h-full lg:h-2/3 md:w-4/5 lg:w-3/4 xlg:w-[90%] xlg:h-[64%] bg-no-repeat  flex p-10 flex-col justify-between bg-cover md:py-3 lg:py-20'>
+            <div className='bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/b-comment.png")] h-[83%] sm:w-full sm:!bg-cover md:h-full lg:!h-full md:w-4/5 lg:!w-[75%] xlg:w-[90%] xlg:h-[64%] bg-no-repeat  flex p-10 flex-col justify-between bg-cover md:py-3 lg:py-20'>
                 <div>
                     <img className='md:h-9 h-3 w-12 md:w-32 ' src="https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/welcome-text.png" alt="" />
                 </div>

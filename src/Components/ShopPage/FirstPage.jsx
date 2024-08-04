@@ -2,6 +2,7 @@
 import React from 'react'
 import SingleProduct from '../SingleProduct'
 import { Link } from 'react-router-dom'
+import SingleShopProduct from './SingleShopProduct'
 
 const FirstPage = () => {
     const ProductArr=[
@@ -73,10 +74,11 @@ const FirstPage = () => {
     ]
   return (
     <div className='min-h-screen w-full  '>
-        <div className="w-full  md:w-full lg:justify-start justify-center md:items-start lg:w-[100%]  lg:min-h-screen flex flex-wrap gap-5">
+        <div className="w-full  md:w-full lg:justify-start justify-center md:items-start 
+        lg:w-[100%]  lg:min-h-screen flex flex-wrap gap-5 ">
         {
 ProductArr.map((e,i)=>(
-  <SingleProduct key={i} item={e}/>
+  <SingleShopProduct key={i} item={e}/>
 ))
         } 
       </div>
