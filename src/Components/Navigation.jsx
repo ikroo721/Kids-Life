@@ -32,7 +32,7 @@ const Toggler=()=>{
             w-fit
             md:px-1
             xlg:px-[8px]
-            lg:px-[14.5px] 
+            lg:!px-[14.5px] 
            `} > 
           <div className={`absolute h-1/2 w-[2px] bg-[#F5F5F5] 
           ${
