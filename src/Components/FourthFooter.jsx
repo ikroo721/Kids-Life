@@ -18,7 +18,7 @@ const FourthFooter = () => {
                         <input type="text" className='h-12 w-full  pl-7 border-[1px]  rounded-l-md text-sm' placeholder={` Enter Email Address`} />
                             <FaRegEnvelope className='md:text-lg lg:text-xl top-1/2 left-2 -translate-y-1/2 text-[#008C99] absolute' />
                         </div>
-                        <button className='p-[10px] h-full md:rounded-l-md lg:rounded-l-none lg:rounded-r-md   text-sm tracking-tighter md:px-[18px] md:py-[12px] lg:px-[15px] bg-[#008C99] text-white' >Signup</button>
+                        <button className='p-[10px] py-[13px] h-full md:rounded-l-md lg:rounded-l-none lg:rounded-r-md   text-sm tracking-tighter md:px-[18px] md:py-[12px] lg:px-[15px] bg-[#008C99] text-white' >Signup</button>
                     </form>
                 </div>
     </>
