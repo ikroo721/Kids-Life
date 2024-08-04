@@ -102,9 +102,9 @@ const gift= [
   return (
     <div className='min-h-screen w-full flex items-center justify-center bg-[#F0F3F3]' >
         <div className='md:w-[90%] lg:w-[75%] min-h-screen lg:flex-nowrap md:flex-nowrap flex-wrap  flex pt-20 lg:justify-normal md:justify-normal justify-center'>
-           <div className='w-[90%]  md:w-[60%] lg:w-[75%] md:min-h-screem lg:min-h-screen  '>
+           <div className='w-[90%]   md:w-[60%] lg:w-[75%] md:min-h-screem lg:min-h-screen  '>
             <div className='h-20 w-full flex  items-center justify-center  ' >
-               <div className='h-full flex md:items-end lg:items-end gap-2 pb-1 text-white lg:flex-nowrap md:flex-nowrap flex-wrap md:justify-start lg:justify-start px-5 justify-center items-center '>
+               <div className='h-full flex md:items-end lg:items-end gap-2 pb-1 text-white sm:flex-wrap sm:gap-1 sm:w-[80%] lg:flex-nowrap md:flex-nowrap flex-wrap md:justify-start lg:justify-start px-5 justify-center items-center '>
                 {
                   ButtonsData.map((e,i)=>(
                     <button key={e} onClick={()=>{

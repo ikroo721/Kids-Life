@@ -5,7 +5,7 @@ import NavTop from './NavTop'
 
 const Navbar = () => {
   return (
-    <div >
+    <div className=''>
         <NavTop/>
        <NavBtm/>
     </div>

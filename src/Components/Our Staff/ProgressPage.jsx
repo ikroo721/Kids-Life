@@ -41,11 +41,11 @@ const ProgressPage = () => {
    w-36 bg-[url("https://kidslifedev.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/images/title_bg_white.png")]' ></div>
     {/* <HeadingWithStar bg={Arr} >Our Statisitcs</HeadingWithStar> */}
   </div>
-  <div className='flex justify-evenly w-full lg:flex-nowrap md:flex-nowrap flex-wrap  font-lato md:gap-4' >
+  <div className='flex justify-evenly w-full lg:flex-nowrap md:flex-nowrap flex-wrap  font-lato md:gap-4 gap-5' >
   {
     ProgressBar.map((e,i)=>(
-      <div key={i} className='flex items-center justify-center flex-col gap-2' >
-  <div className='h-52 w-52 md:h-40 md:w-40 lg:h-52 lg:w-52 ' >
+      <div key={i} className='flex items-center justify-center flex-col gap-5 ' >
+  <div className='h-52 w-52 md:h-40 md:w-40 lg:h-52 lg:w-52  ' >
 <CircularProgressbar
   value={e.value}
   text={`${e.value}%`}

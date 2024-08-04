@@ -22,10 +22,10 @@ const Toggler=()=>{
 }
   return (
     <>
-      <div className="md:w-full hidden sm:hidden lg:w-3/4 h-full md:flex  lg:flex items-center overflow-hidden  ">
+      <div className="md:w-full hidden sm:hidden lg:w-3/4 xl:w-[85%] h-full md:flex  lg:flex items-center overflow-hidden  ">
 
         {LinksToNavigate.map((e, i) => (
-          <div key={i} className={` relative h-full  flex items-center justify-center z-10 
+          <div key={i} className={` relative h-full  flex items-center justify-center text-nowrap z-10 
             ${
               e.name == "home" && " "
             } 
@@ -57,8 +57,8 @@ const Toggler=()=>{
           </div>
         ))}
       </div>
-      <div className="md:hidden lg:hidden w-[100%] z-[100]" >
-      <div onClick={Toggler} className="w-80 h-12 bg-[#008c99]  flex justify-between items-center px-2"> 
+      <div className="md:hidden lg:hidden w-[100%] z-[99]" >
+      <div onClick={Toggler} className="w-80 h-10 mt-1 bg-[#008c99]  flex justify-between items-center px-2"> 
       <h2 className="text-2xl font-bubblegum text-white" >Menu</h2>
       <button onClick={Toggler} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 text-white" aria-controls="navbar-default" aria-expanded="false">
         <span  onClick={Toggler} className="sr-only">Open main menu</span>
@@ -67,11 +67,11 @@ const Toggler=()=>{
         </svg>
     </button>
       </div>
-      <div className=" w-full md:block md:w-auto" id="navbar-default">
+      <div className=" w-full md:block md:w-auto z-[100]" id="navbar-default">
       <ul className="font-medium flex flex-col  md:p-0  overflow-hidden border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
         {
           Toggle && LinksToNavigate.map((e, i) => (
-            <div key={i} className={` relative h-12 w-full border-b-2 px-4 flex items-center justify-start z-10 
+            <div key={i} className={` relative h-9 w-full border-b-2 px-4 flex items-center justify-start z-10 
               ${
                 e.name == "home" && " "
               } 
@@ -89,11 +89,8 @@ const Toggler=()=>{
               to={ i==0 ? "../" : i==9 ? "/contact" : i==2 ? "/staff" :"/"+e.name }
               className={
                 ` font-lato
-                 uppercase text-2xl  `
+                 uppercase text-xl focus:text-[${e.bg}]  `
               }
-              style={({ isActive }) => ({
-                color:  e.bg ,
-              })}
             >
               {e.name}  
             </NavLink>

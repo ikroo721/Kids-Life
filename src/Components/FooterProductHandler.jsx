@@ -4,7 +4,8 @@ import React from 'react'
 
 const FooterProductHandler = ({children}) => {
   return (
-    <div className='h-[90vh]  sm:h-[80vh] md:h-[80vh] lg:h-[45vh] w-[70vw] sm:w-3/4 md:w-3/4 lg:w-[17.3vw]  flex flex-col gap-6  ' >
+    <div className='min-h-[20vh]  sm:h-[50vh] md:h-[60vh] lg:h-[45vh] sm:w-[70vw]  
+    md:w-[24vw] lg:w-[17.3vw]  flex flex-col gap-6  ' >
           {children}
     </div>
   )

@@ -3,7 +3,7 @@ import React from 'react'
 
 const FirstCarousel = () => {
   return (
-    <div className='h-[25vh]  md:h-[50vh] lg:h-[90vh] relative w-full bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/bg2.jpg")] bg-no-repeat bg-cover bg-center flex items-center justify-center' >
+    <div className='h-[25vh] sm:h-[30vh]  md:h-[50vh] lg:h-[90vh] xl:h-[80vh] relative w-full bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/bg2.jpg")] bg-no-repeat bg-cover bg-center flex items-center justify-center' >
          <div className='h-[20vh]  md:h-[45vh]  lg:h-[75vh] w-full relative' >
          <div className='h-full w-full flex items-center justify-center'>
          <div className='h-full w-[88%] lg:w-[88%] blue-100 flex '>

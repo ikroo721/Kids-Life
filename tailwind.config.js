@@ -6,6 +6,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '425px',   // Small screens (e.g., mobile)
+      md: '768px',   // Medium screens (e.g., tablets)
+      lg: '1024px',  // Large screens (e.g., laptops)
+      xl: '1280px',  // Extra large screens (e.g., desktops)
+      '2xl': '1536px', // Double extra large screens
+    },
 
     extend: {
       fontFamily: {

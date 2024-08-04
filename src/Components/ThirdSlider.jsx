@@ -3,7 +3,7 @@ import React from 'react'
 
 const ThirdSlider = () => {
   return (
-    <div className='h-[25vh] md:h-[50vh] lg:h-[90vh] w-full bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/black-board.jpg")] bg-cover flex items-center justify-center pt-5 px-3'  >
+    <div className='h-[25vh] sm:h-[30vh] md:h-[50vh] lg:h-[90vh]  xl:h-[80vh] w-full bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/black-board.jpg")] bg-cover flex items-center justify-center pt-5 px-3'  >
         
         <div className='h-full w-2/3  flex flex-col justify-center items-end '>
             <div className='flex w-3/4'>
@@ -12,7 +12,7 @@ const ThirdSlider = () => {
                  </div>
                  
             </div>
-            <div className='bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/b-comment.png")] h-full md:h-full lg:h-2/3 md:w-4/5 lg:w-3/4 bg-no-repeat  flex p-10 flex-col justify-between bg-cover md:py-3 lg:py-20'>
+            <div className='bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/b-comment.png")] h-[83%] sm:w-full sm:!bg-cover md:h-full lg:h-2/3 md:w-4/5 lg:w-3/4 bg-no-repeat  flex p-10 flex-col justify-between bg-cover md:py-3 lg:py-20'>
                 <div>
                     <img className='md:h-9 h-3 w-12 md:w-32 ' src="https://kidslifedev.wpengine.com/wp-content/uploads/layerslider/KidsLife-Slider/welcome-text.png" alt="" />
                 </div>

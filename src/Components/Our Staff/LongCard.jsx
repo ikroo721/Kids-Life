@@ -39,14 +39,14 @@ const LongCard=[
     ]
   return (
     // bg-[#F0F3F3]
-    <div className='min-h-screen md:min-h-[90vh] lg:min-h-[80vh] w-full bg-[#F0F3F3] flex items-center justify-center flex-col gap-6'>
-    <div className=' w-3/4 flex items-center justify-center flex-col'>
+    <div className='min-h-screen  md:min-h-[90vh] lg:min-h-[80vh] bg-[#F0F3F3] w-full  sm:pt-5 flex items-center justify-center flex-col gap-6'>
+    <div className=' w-3/4 flex  items-center justify-center flex-col'>
 
    <h1 className='font-bubblegum text-3xl '>Activities for Children</h1>
    <div style={{backgroundColor:"#008c99",backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:'no-repeat'}} className='h-[15px]
    w-36 bg-[url("https://kidslifedev.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/images/title_bg.png")]' ></div>
     </div>
-    <div className='md:w-full lg:w-[75%] min-h-[65vh] md:min-h-[70%]  lg:min-h-[70%] flex gap-5 font-lato px-2 lg:flex-nowrap md:flex-nowrap flex-wrap lg:justify-start md:justify-start justify-center'>
+    <div className='md:w-full lg:w-[75%] min-h-[65vh]  md:min-h-[70%] pb-5  lg:min-h-[70%] flex gap-5 font-lato px-2 lg:flex-nowrap md:flex-nowrap flex-wrap lg:justify-start md:justify-start justify-center'>
          { LongCard.map((e,i)=>(
             <SingleLongCard key={i} bg={e.bg} >
             <LongTopLine btm="" >{e.line}</LongTopLine>

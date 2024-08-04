@@ -42,8 +42,8 @@ const HexagonPage = () => {
         }
      ]
   return (
-<div className='lg:min-h-[120vh] w-full  pt-10 bg-[#F0F3F3] ' >
-        <div className=' w-full  flex items-center justify-center ' >
+<div className='lg:min-h-[10vh] w-full  pt-10 bg-[#F0F3F3]' >
+        <div className=' w-full  flex items-center justify-center g ' >
   <PortFolioHexa  color="#EA9D5FE6" img="https://kidslifedev.wpengine.com/wp-content/uploads/2014/12/image1.jpg" >
   Leisure Time
     </PortFolioHexa>       

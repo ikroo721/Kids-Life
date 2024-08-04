@@ -10,7 +10,7 @@ const MainBlogs = () => {
 
   }
   return (
-    <div className="lg:h-[110vh] w-full  flex items-center justify-center flex-col bg-black bg-[url('https://kidslifedev.wpengine.com/wp-content/uploads/2014/12/fullwidth-blog-bg.png')] bg-fixed font-lato  " >
+    <div className=" lg:min-h-[10vh] w-full  flex items-center justify-center flex-col bg-black bg-[url('https://kidslifedev.wpengine.com/wp-content/uploads/2014/12/fullwidth-blog-bg.png')] bg-fixed font-lato  " >
       <div className='h-full md:w-full  pt-20 flex items-center justify-center flex-col gap-2' > 
       <HeadingWithStar bg={Arr} > Recent Blogs</HeadingWithStar>
       <RecentBlog/>

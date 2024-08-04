@@ -27,7 +27,7 @@ const Sponsors = () => {
               <Right/> */}
                </div>
                </div>
-               <div className='h-32 w-full bg-blue-200 '>
+               <div className='h-32 w-full  '>
                     <SponsorSlider/>        
                </div>
       </div>

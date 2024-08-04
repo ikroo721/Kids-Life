@@ -47,16 +47,18 @@ const Arr=[
     // prevArrow: <Prev/>
   };
   return (  
-    <div className='h-[25vh] mt-2 lg:mt-0 md:mt-0 md:h-[30vh] lg:h-[35vh] lg:w-[36vw]    flex items-center justify-center relative overflow-hidden' >
+    <div className='h-[25vh] mt-2 lg:mt-0 md:mt-0 md:h-[30vh] lg:h-[35vh] lg:w-[36vw]    flex items-center justify-center relative overflow-hidden ' >
       <div className="slider-container">
       <Slider {...settings}>
-      {Arr.map((e,i)=>
-        (
-         <div key={i} className="h-[25vh] md:h-[41vh] lg:h-[41vh] w-full ">
-         <img className="h-full w-full object-cover" src={e.img} alt="" />
+         <div  className="h-[25vh] md:h-[41vh] lg:h-[41vh] w-full ">
+         <img className="h-full w-full object-cover" src="https://kidslifedev.wpengine.com/wp-content/uploads/2015/01/about-slider3.jpg" alt="" />
          </div>
-      ))
-      }
+         <div  className="h-[25vh] md:h-[41vh] lg:h-[41vh] w-full ">
+         <img className="h-full w-full object-cover" src="https://kidslifedev.wpengine.com/wp-content/uploads/2015/01/about-slider2.jpg" alt="" />
+         </div>
+         <div  className="h-[25vh] md:h-[41vh] lg:h-[41vh] w-full ">
+         <img className="h-full w-full object-cover" src="https://kidslifedev.wpengine.com/wp-content/uploads/2015/01/about-slider1.jpg" alt="" />
+         </div>
       </Slider>
     </div>
     </div>

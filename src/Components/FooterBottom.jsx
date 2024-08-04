@@ -3,13 +3,13 @@ import React from 'react'
 import { FaDribbble, FaFacebookF,  FaFlickr,  } from 'react-icons/fa' 
 const FooterBottom = () => {
   return (
-    <div className='min-h-[55px] w-full bg-[#008C99] flex justify-center font-lato'>
-    <div className='h-full md:w-[80%] lg:w-[75%] flex lg:flex-nowrap md:flex-nowrap flex-wrap lg:justify-between' >
-    <div className='h-full md:w-[30vw] w-full lg:w-[30vw]  flex items-center text-white lg:text-start md:text-start text-center'>
+    <div className='min-h-[55px] w-full bg-[#008C99] flex  items-center justify-center font-lato'>
+    <div className='h-full md:w-[100%] lg:w-[75%] flex lg:flex-nowrap md:flex-nowrap flex-wrap lg:justify-between md:justify-between items-center' >
+    <div className='h-full md:w-[30vw] w-full lg:w-[30vw]  flex items-center text-white lg:justify-start md:justify-start justify-center'>
      <p className='md:text-sm text-[12px] lg:text-sm text-nowrap ' >© 2014 Kids Life. All rights reserved. Design by <a className='' href="">Design Themes</a></p>
     </div>
-    <div className='h-full md:w-[30vw] w-full lg:w-[20vw] flex items-center justify-center'>
-               <p className='relative   md:text-sm lg:text-sm   text-white flex items-center gap-2' >
+    <div className='h-full md:w-[30vw] w-full lg:w-[20vw] flex items-center  justify-center'>
+               <p className='relative   md:text-sm lg:text-sm   text-white flex items-center gap-2 text-nowrap' >
                Follow us
                <div >
                 <img src="https://kidslifedev.wpengine.com/wp-content/themes/kidslife/images/footer_arrow.png" alt="" />

@@ -17,7 +17,7 @@ const PortFolioHexa = ({children,img,color}) => {
     <div
       onMouseMove={handleMove}
       onMouseLeave={handlLeave}
-      className='lg:h-[22vw] md:h-[22vw] md:w-[25.5vw] lg:w-[25.5vw]   bg-[url("https://kidslifedev.wpengine.com/wp-content/themes/kidslife/images/hexagon.png")] bg-cover flex items-center justify-center  overflow-hidden relative after:contents-[""] after:h-full after:w-full after:absolute after:bg-[url("https://kidslifedev.wpengine.com/wp-content/themes/kidslife/images/hexagon.png")]  after:bg-cover '
+      className='lg:h-[22vw] md:h-[22vw] md:w-[25.5vw] lg:w-[25.5vw]   bg-[url("https://kidslifedev.wpengine.com/wp-content/themes/kidslife/images/hexagon.png")] bg-cover flex items-center justify-center  overflow-hidden relative after:contents-[""] after:h-full after:w-full after:absolute after:bg-[url("https://kidslifedev.wpengine.com/wp-content/themes/kidslife/images/hexagon.png")]  after:bg-cover p-[5px] lg:p-0 md:p-0'
     >
       <div className="lg:h-[22vw] md:h-[22vw] md:w-[25vw] lg:w-[25vw]   clip-your-hexagon overflow-hidden  ">
         <img

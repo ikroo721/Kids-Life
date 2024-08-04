@@ -9,7 +9,7 @@ const StaffCard = ({arr}) => {
   //   img:"https://kidslifedev.wpengine.com/wp-content/uploads/2014/12/team1.jpg"
   // }
   return (
-    <div className='w-full sm:w-full md:w-1/2 lg:w-1/4 h-full  flex items-center flex-col gap-4 text-center' >
+    <div className='w-full sm:w-full md:w-1/4 lg:w-1/4 h-full  flex items-center flex-col gap-4 text-center ' >
            <MainHexaStaffWala>
             <Hexo>
              {arr}

@@ -27,7 +27,7 @@ const Staff = () => {
         <HeadingWithStar bg={Arr} >
           Our Portfolio
         </HeadingWithStar>
-        <div className='min-h-[50vh] sm:w-full md:w-3/4 lg:w-3/4 flex flex-wrap lg:gap-0 md:gap-0 gap-5 ' >
+        <div className='min-h-[50vh] sm:w-full md:w-[95%]  lg:w-3/4  xl:w-[90%] flex flex-wrap lg:gap-0 md:gap-0 gap-5 ' >
          {
           StaffData.map((e,i)=>(
             <StaffCard key={i} arr={e} />

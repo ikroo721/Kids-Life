@@ -36,11 +36,11 @@ const Products = () => {
     },
 ]
   return (
-    <div className='min-h-screen w-full bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/2014/12/product_bg.png")] bg-cover bg-fixed bg-[#D2D2D2] flex items-center justify-center flex-col'>
+    <div className='min-h-screen w-full bg-[url("https://kidslifedev.wpengine.com/wp-content/uploads/2014/12/product_bg.png")] bg-cover bg-fixed bg-[#D2D2D2] flex items-center justify-center flex-col sm:pt-8 pt-5 pb-8'>
       <HeadingWithStar bg={Arr} >
         Recent Products
       </HeadingWithStar>
-      <div className="w-full  md:w-full lg:w-[75%]  lg:h-2/3 flex items-center justify-center gap-5 flex-wrap">
+      <div className="w-full  md:w-full lg:w-[75%]  xl:w-[90%]  lg:h-2/3 flex items-center justify-center gap-5 flex-wrap">
         {
 ProductArr.map((e,i)=>(
   <SingleProduct key={i} item={e}/>
