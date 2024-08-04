@@ -41,7 +41,7 @@ const FooterTop = () => {
             </div>
            
            </div>
-            <div className='min-h-[45vh] xl:bg-red-500 xlg:bg-green-500 lg:bg-blue-500 md:bg-yellow-500 sm:bg-teal-500 bg-purple-500 sm:w-[90%] md:w-full   lg:w-[75%] xl:w-[80%] 
+            <div className='min-h-[45vh]   sm:w-[90%] md:w-full   lg:w-[75%] xl:w-[80%] 
             xlg:w-[90%]  flex items-center md:justify-center justify-center lg:justify-start  flex-wrap gap-2 lg:gap-6    '>
                 {
                     FooterPage.map((e,i)=>(

@@ -23,7 +23,7 @@ const Staff = () => {
   ]
   return (
     <div>
-        <div className='min-h-[70vh]  w-full bg-[#F0F3F3] flex justify-center items-center flex-col' >
+        <div className='min-h-[10vh] pt-12  w-full bg-[#F0F3F3] flex justify-center items-center flex-col' >
         <HeadingWithStar bg={Arr} >
           Our Portfolio
         </HeadingWithStar>
