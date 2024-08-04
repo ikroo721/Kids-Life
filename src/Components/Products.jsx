@@ -40,7 +40,7 @@ const Products = () => {
       <HeadingWithStar bg={Arr} >
         Recent Products
       </HeadingWithStar>
-      <div className="w-full  md:w-full lg:w-[75%]  xl:w-[90%]  lg:h-2/3 flex items-center justify-center gap-5 flex-wrap">
+      <div className="w-full  md:w-full lg:w-[75%] xlg:w-[90%]  xl:w-[90%]  lg:h-2/3 flex items-center justify-center gap-5 flex-wrap">
         {
 ProductArr.map((e,i)=>(
   <SingleProduct key={i} item={e}/>

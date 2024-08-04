@@ -9,7 +9,8 @@ export default {
     screens: {
       sm: '425px',   // Small screens (e.g., mobile)
       md: '768px',   // Medium screens (e.g., tablets)
-      lg: '1024px',  // Large screens (e.g., laptops)
+      lg: '1000px',  // Large screens (e.g., laptops)
+      xlg: '1120px',  // Extra large screens (e.g., desktops)
       xl: '1280px',  // Extra large screens (e.g., desktops)
       '2xl': '1536px', // Double extra large screens
     },

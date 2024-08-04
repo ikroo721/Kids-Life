@@ -41,7 +41,8 @@ const FooterTop = () => {
             </div>
            
            </div>
-            <div className='min-h-[45vh] sm:w-[90%]  lg:w-[75%] xl:w-[80%] flex items-center md:justify-center justify-center lg:justify-start  flex-wrap gap-2 lg:gap-6    '>
+            <div className='min-h-[45vh] sm:w-[90%]  lg:w-[75%] xl:w-[80%] 
+            xlg:w-[90%]  flex items-center md:justify-center justify-center lg:justify-start  flex-wrap gap-2 lg:gap-6    '>
                 {
                     FooterPage.map((e,i)=>(
                     <FooterProductHandler key={e} >
