@@ -22,7 +22,7 @@ const Toggler=()=>{
 }
   return (
     <>
-      <div className="md:w-full hidden sm:hidden lg:w-3/4 xl:w-[85%] h-full md:flex  lg:flex items-center overflow-hidden  ">
+      <div className="md:w-full hidden sm:hidden lg:w-3/4 xl:w-[85%] xlg:w-full h-full md:flex  lg:flex items-center overflow-hidden  ">
 
         {LinksToNavigate.map((e, i) => (
           <div key={i} className={` relative h-full  flex items-center justify-center text-nowrap z-10 
@@ -31,6 +31,7 @@ const Toggler=()=>{
             } 
             w-fit
             md:px-1
+            xlg:px-[8px]
             lg:px-[14.5px] 
            `} > 
           <div className={`absolute h-1/2 w-[2px] bg-[#F5F5F5] 
@@ -42,7 +43,7 @@ const Toggler=()=>{
             to={ i==0 ? "../" : i==9 ? "/contact" : i==2 ? "/staff" :"/"+e.name }
             className={
               ` font-lato
-               uppercase md:text-[11px] lg:text-sm `
+               uppercase md:text-[11px] lg:text-sm xlg:text-[12.7px] `
             }
             style={({ isActive }) => ({
               color: isActive ? e.bg : "",
@@ -52,7 +53,7 @@ const Toggler=()=>{
           </NavLink>
           <span
           style={{backgroundColor:e.bg}}
-            className={`h-full w-full absolute top-[-93%] left-0 `}
+            className={`h-full w-full absolute top-[-87%] left-0 `}
           ></span>
           </div>
         ))}

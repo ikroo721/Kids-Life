@@ -36,7 +36,7 @@ const Social = () => {
              </a>
              <span
           style={{backgroundColor:e.bg}}
-            className={`h-full w-full absolute top-[-93%] left-0 `}
+            className={`h-full w-full absolute top-[-87%] left-0 `}
           ></span>
              </div>
         ))}

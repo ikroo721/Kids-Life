@@ -30,7 +30,7 @@ const Search = ({Fnc,MapChange}) => {
   return (
     <div>
          <div className='lg:h-20  w-full flex items-center justify-center   '>
-<div className='lg:h-full md:w-[75%] flex-col  lg:w-[75%] flex bg-[#EEEEEE] items-center lg:flex-row md:flex-col '>
+<div className='lg:h-full md:w-[75%] flex-col  lg:w-[75%] xlg:w-[90%] flex bg-[#EEEEEE] items-center lg:flex-row md:flex-col '>
 <form className='h-full w-[75%] md:hidden hidden lg:flex items-center justify-evenly'>
     <div className='md:flex hidden lg:flex flex-col' >
         <label className='text-md font-semibold tracking-tight font-lato'  htmlFor="EventFrom">Event From</label>
@@ -47,8 +47,8 @@ const Search = ({Fnc,MapChange}) => {
     </div>
     <button className='px-[10px] py-[8px] bg-[#008C99] tracking-tight text-white mt-5 font-semibold' >FIND EVENTS</button>
 </form>
-<div className='lg:hidden flex md:flex  w-full ' >
-<div className="relative inline-block text-left  w-full z-10 ">
+<div className='lg:hidden flex md:flex  w-full z-10 ' >
+<div className="relative inline-block text-left  w-full z-[10] ">
       <div className='h-8 w-full  flex bg-[#EEEEEE] gap-1' >
         <button
           onClick={toggleEvent}
@@ -68,7 +68,7 @@ const Search = ({Fnc,MapChange}) => {
       {
       isOpenEvent && (
     <>
-      <div className='w-full  flex flex-col items-center justify-center' >
+      <div className='w-full  flex flex-col items-center justify-center absolute z-[10]' >
       <div className='md:flex  w-[75%] lg:flex flex-col ' >
         <label className='text-md font-semibold tracking-tight font-lato'  htmlFor="EventFrom">Event From</label>
         <input className='h-10 px-4 text-sm  lg:w-52 hidden z-[10]'   type="date" placeholder="2024-08-02" />
@@ -93,8 +93,8 @@ const Search = ({Fnc,MapChange}) => {
 
 </div>
 </div>
-<div className='h-full  flex w-full lg:w-[25%]  '>
-<div className='flex flex-col h-full w-full relative justify-center lg:mt-0 mt-5' >
+<div className='h-full  flex w-full lg:w-[25%] z-0 '>
+<div className='flex flex-col h-full w-full relative justify-center lg:mt-0 mt-5 z-0' >
   
 <label htmlFor="View" className='text-[#2f2f2f] text-md font-semibold'>View As</label>
 <div className="relative inline-block text-left  w-full z-10">
